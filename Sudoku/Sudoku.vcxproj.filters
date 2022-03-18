@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Config">
+      <UniqueIdentifier>{d39c61df-ae3f-4139-8ae5-4a73a6b14511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sounds">
+      <UniqueIdentifier>{8ac1b201-d4d7-4992-a354-82638ce73a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{2e60f246-7217-4a26-af95-708924242c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLogic">
+      <UniqueIdentifier>{09f6bac7-23bd-46ea-aa2e-1c64268cc5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameLogic">
+      <UniqueIdentifier>{724e1d0b-1466-41dd-8b51-9d515c96809e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{f523f631-151c-43ff-a7cd-b9f9c59d2dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Texts">
+      <UniqueIdentifier>{8ff4b157-6716-437f-b691-d04ba16d06f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainmenuState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="settingsState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHandler.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopersState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BestScooreState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainmenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sudoku.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHandler.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopersState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BestScooreState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Config\supported_Key_GameState _WASD.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="..\Config\supported_Key_GameState.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="..\Config\window_config.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="..\Config\supported_Key.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="..\hard_puzzles.txt">
+      <Filter>Resource Files\Texts</Filter>
+    </Text>
+    <Text Include="..\easy_puzzles.txt">
+      <Filter>Resource Files\Texts</Filter>
+    </Text>
+    <Text Include="..\Highest Score.txt">
+      <Filter>Resource Files\Texts</Filter>
+    </Text>
+    <Text Include="..\normal_puzzles.txt">
+      <Filter>Resource Files\Texts</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Sounds\move_sound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="..\Sounds\pacman-lose.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="..\Sounds\pressed_sound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="..\Sounds\start-game.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="..\Sounds\chomp1.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="..\Sounds\chomp2.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="..\Sounds\hoverd_sound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Textures\Sound.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\Textures\checkSign.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\Textures\HG_sudoku_header.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\Textures\lolololo.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\Textures\hint.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\Textures\undo.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\Textures\eraser.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\Textures\redo.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Fonts\Sudoku.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
